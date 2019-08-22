@@ -1,6 +1,9 @@
 @font-face {
   font-family: "Malaga";
-  src: url("../fonts/MalagaOT-RegItalic.otf") format("opentype");
+  src:
+    url("../fonts/MalagaOT-RegItalic.ttf") format("truetype"),
+    url('../fonts/MalagaOT-RegItalic.woff') format('woff'),
+    url('../fonts/MalagaOT-RegItalic.eot') format('embedded-opentype'),;
   font-style: italic;
 }
 html {
